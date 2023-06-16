@@ -4,7 +4,7 @@ import random
 st.title('Guess the Number Game')
 
 #generate a random number between 1 and 100
-number = random.randit(1, 100)
+number = random.randint(1, 100)
 
 guess = st.number_input("Enter a number (between 1 and 100):", min_value=1,max_value=100)
 
